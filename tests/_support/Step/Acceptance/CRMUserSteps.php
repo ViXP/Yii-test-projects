@@ -3,8 +3,7 @@ namespace Step\Acceptance;
 
 class CRMUserSteps extends \AcceptanceTester
 {
-	public:
-
+	public
 		function amInQueryCustomerUi() {
 			$I = $this;
 			$I->amOnPage('/customers/query');
@@ -37,3 +36,5 @@ class CRMUserSteps extends \AcceptanceTester
 			$I->dontSee($customer_data['CustomerRecord[name]'], '#search_results');
 		}
 }
+
+?>

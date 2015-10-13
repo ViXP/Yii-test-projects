@@ -3,8 +3,7 @@ namespace Step\Acceptance;
 
 class CRMOperatorSteps extends \AcceptanceTester
 {
-	public: 
-
+	public 
 		function amInAddCustomerUI() {
 			$I = $this;
 			$I->amOnPage('/customers/add');
@@ -41,3 +40,4 @@ class CRMOperatorSteps extends \AcceptanceTester
 			$I->amOnPage('/customers/');
 		}
 }
+?>
