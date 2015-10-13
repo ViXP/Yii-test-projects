@@ -20,7 +20,7 @@ class CRMOperatorSteps extends \AcceptanceTester
 		}
 
 		function fillCustomerDataForm($fieldsData) {
-			$i = $this;
+			$I = $this;
 			foreach ($fieldsData as $key => $value)
 				$I->fillField($key,$value);
 		}
