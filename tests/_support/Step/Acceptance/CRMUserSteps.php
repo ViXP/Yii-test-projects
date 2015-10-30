@@ -12,7 +12,7 @@ class CRMUserSteps extends \AcceptanceTester
 		function fillInPhoneFieldWithDataFrom($customer_data) {
 			$I = $this;
 			$I->fillField(
-					'PhoneRecord[number]',
+					"PhoneRecord[number]",
 					$customer_data['PhoneRecord[number]']
 				);
 		}
@@ -24,7 +24,7 @@ class CRMUserSteps extends \AcceptanceTester
 
 		function seeIAmInListCustomersUi() {
 			$I = $this;
-			$I->seeCurrentUrlMatches('/customers/');
+			$I->seeCurrentUrlMatches('/customers');
 		}
 
 		function seeCustomerInList($customer_data) {

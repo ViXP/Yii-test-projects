@@ -1,7 +1,8 @@
 <?php
 namespace app\models\customer;
 
-class Customer {
+class Customer 
+{
 	public $name;
 
 	public $birth_date;

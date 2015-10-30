@@ -40,4 +40,3 @@ class CRMOperatorSteps extends \AcceptanceTester
 			$I->amOnPage('/customers/');
 		}
 }
-?>
